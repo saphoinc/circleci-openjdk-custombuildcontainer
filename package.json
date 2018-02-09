@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Public docker image with Node 8.9, ecs-cli, and aws-cli for CircleCi workspaces",
   "scripts": {
-    "build": "docker build -t rhinogram/node-awscli ."
+    "build": "docker build -t lodotek/node-awscli ."
   },
-  "author": "Rhinogram, LLC",
+  "author": "Chris Montes",
   "license": "ISC"
 }
