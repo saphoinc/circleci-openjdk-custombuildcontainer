@@ -2,7 +2,7 @@
 
 echo "installing dependencies..."
 sudo apt-get update 
-sudo apt-get install -qq -y python-pip libpython-dev mysql-client jq
+sudo apt-get install -qq -y python-pip libpython-dev mysql-client less
 sudo curl -O https://bootstrap.pypa.io/get-pip.py && sudo python get-pip.py
 sudo pip install -q awscli==1.14.35 --upgrade # lock version
 
