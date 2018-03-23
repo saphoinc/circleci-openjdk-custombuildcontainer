@@ -1,4 +1,4 @@
-FROM circleci/node:8.9
+FROM circleci/openjdk:8-jdk-browsers
 LABEL maintainer="Chris Montes"
 LABEL description="Basic Docker image with Node and AWS CLI + cli53 for CircleCi workspaces"
 
