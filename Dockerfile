@@ -1,6 +1,6 @@
 FROM circleci/openjdk:8-jdk-browsers
 LABEL maintainer="Chris Montes"
-LABEL description="Basic Docker image with Node and AWS CLI + cli53 for CircleCi workspaces"
+LABEL description="Basic Docker image with OpenJDK and AWS CLI + cli53 for CircleCi workspaces"
 
 RUN sudo mkdir -p /dir
 ADD dependencies.sh /dir/
