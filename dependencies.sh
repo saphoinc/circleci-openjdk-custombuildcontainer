@@ -15,6 +15,6 @@ sudo wget https://github.com/barnybug/cli53/releases/download/0.7.4/cli53-linux-
 sudo chmod +x /usr/local/bin/cli53
 
 # global npm
-sudo npm install -g merge-yaml-cli
-sudo npm install -g aws-sdk
-sudo npm install -g babel-cli
+#sudo npm install -g merge-yaml-cli
+#sudo npm install -g aws-sdk
+#sudo npm install -g babel-cli
