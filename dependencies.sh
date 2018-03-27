@@ -1,10 +1,11 @@
 #!/bin/bash
 
 echo "installing dependencies..."
-sudo apt-get update 
-sudo apt-get install -qq -y python-pip libpython-dev mysql-client less
-sudo curl -O https://bootstrap.pypa.io/get-pip.py && sudo python get-pip.py
-sudo pip install -q awscli==1.14.35 --upgrade # lock version
+sudo apt-get -y -qq update 
+sudo apt-get -y -qq install python3-dev mysql-client build-essential less
+sudo curl -O https://bootstrap.pypa.io/get-pip.py
+sudo python3 get-pip.py
+sudo pip install -q awscli==1.14.43 --upgrade # lock version
 
 # ecs-cli
 sudo curl -o /usr/local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-linux-amd64-latest
